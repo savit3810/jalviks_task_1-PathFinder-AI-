@@ -1,0 +1,14 @@
+﻿{
+    "college_domain_encoder.pkl":  "d6e886ad40e70074dd077a354ed1885f746234d538916f4e47eb5cc801c0458c",
+    "college_degree_encoder.pkl":  "92af613370c7043b8ae98888ca61167ee77acc6b8afb5c336ab36151149c5722",
+    "salary_rf_model.pkl":  "62d642c4c73a179478c497261830975df2741563e08ba07068acb4c1e8c8e0b0",
+    "class12_pref_encoder.pkl":  "35ffb088491f83425d6a5e442c6ff9f99adfa2f242b4c65bb5ddf0bef710bbd5",
+    "college_domain_model_lr.pkl":  "642151b6c292594179a2258a8c1ad5be396d2da028c09d0a134982867f62d55a",
+    "class12_course_encoder.pkl":  "852c93d23abee8b8cada670b51ca2c2158b962c115a401fa7f762be387f6ce4c",
+    "salary_linear_model.pkl":  "dc8b673a850f0b14d773fd26744dc54e47bdbfa463120c9fdad3c42345c4397b",
+    "class10_stream_encoder.pkl":  "e0f4def47b478583ca0d97c150d133f24bedaec431a376a0124d45234882d88c",
+    "class12_course_model.pkl":  "f292f0d89e5afd7e892e17a767d673658d2d47bc0275bcf9c28cff9c99965a59",
+    "class12_stream_encoder.pkl":  "e0f4def47b478583ca0d97c150d133f24bedaec431a376a0124d45234882d88c",
+    "college_domain_model_dt.pkl":  "685f3d3dbbe94821ae1e1641649c40752a7eef6404d890d58121fc372c223efb",
+    "class10_stream_model.pkl":  "c531011cd66e838aa42ec3d60ab2bfd3be0243431b91d99fb0b0a5cd30da06aa"
+}

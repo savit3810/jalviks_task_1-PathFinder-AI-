@@ -1,0 +1,35 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- C:\Python314\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Admin\Downloads\PathFinder-AI---Lifelong-AI-Career-Companion-main (1)\PathFinder-AI---Lifelong-AI-Career-Companion-main
+plugins: anyio-4.14.1, asyncio-1.4.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 19 items
+
+tests/security/test_security.py::test_admin_endpoint_requires_auth PASSED [  5%]
+tests/security/test_security.py::test_viewer_cannot_access_admin_endpoint PASSED [ 10%]
+tests/security/test_security.py::test_student_cannot_access_admin_users PASSED [ 15%]
+tests/security/test_security.py::test_account_lockout_after_failed_logins PASSED [ 21%]
+tests/security/test_security.py::test_nosql_injection_in_login_email PASSED [ 26%]
+tests/security/test_security.py::test_nosql_injection_in_login_password PASSED [ 31%]
+tests/security/test_security.py::test_extra_fields_rejected PASSED       [ 36%]
+tests/security/test_security.py::test_xss_in_signup_name PASSED          [ 42%]
+tests/security/test_security.py::test_xss_in_career_goal PASSED          [ 47%]
+tests/security/test_security.py::test_forged_jwt_rejected PASSED         [ 52%]
+tests/security/test_security.py::test_expired_token_rejected PASSED      [ 57%]
+tests/security/test_security.py::test_missing_bearer_prefix PASSED       [ 63%]
+tests/security/test_security.py::test_marks_out_of_range_rejected PASSED [ 68%]
+tests/security/test_security.py::test_negative_marks_rejected PASSED     [ 73%]
+tests/security/test_security.py::test_security_headers_present PASSED    [ 78%]
+tests/security/test_security.py::test_health_check_public PASSED         [ 84%]
+tests/security/test_security.py::test_weak_password_rejected PASSED      [ 89%]
+tests/security/test_security.py::test_duplicate_email_rejected PASSED    [ 94%]
+tests/security/test_security.py::test_login_error_is_generic PASSED      [100%]
+
+============================== warnings summary ===============================
+..\..\..\..\..\Python314\Lib\site-packages\_pytest\cacheprovider.py:469
+  C:\Python314\Lib\site-packages\_pytest\cacheprovider.py:469: PytestCacheWarning: could not create cache path C:\Users\Admin\Downloads\PathFinder-AI---Lifelong-AI-Career-Companion-main (1)\PathFinder-AI---Lifelong-AI-Career-Companion-main\.pytest_cache\v\cache\nodeids: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\Admin\\Downloads\\PathFinder-AI---Lifelong-AI-Career-Companion-main (1)\\PathFinder-AI---Lifelong-AI-Career-Companion-main\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 19 passed, 1 warning in 21.87s ========================
